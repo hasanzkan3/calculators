@@ -1,0 +1,14 @@
+/home/revived/Belgeler/zed/csharp/calculator/HesapMakinesi/bin/Debug/net8.0/HesapMakinesi
+/home/revived/Belgeler/zed/csharp/calculator/HesapMakinesi/bin/Debug/net8.0/HesapMakinesi.deps.json
+/home/revived/Belgeler/zed/csharp/calculator/HesapMakinesi/bin/Debug/net8.0/HesapMakinesi.runtimeconfig.json
+/home/revived/Belgeler/zed/csharp/calculator/HesapMakinesi/bin/Debug/net8.0/HesapMakinesi.dll
+/home/revived/Belgeler/zed/csharp/calculator/HesapMakinesi/bin/Debug/net8.0/HesapMakinesi.pdb
+/home/revived/Belgeler/zed/csharp/calculator/HesapMakinesi/obj/Debug/net8.0/HesapMakinesi.GeneratedMSBuildEditorConfig.editorconfig
+/home/revived/Belgeler/zed/csharp/calculator/HesapMakinesi/obj/Debug/net8.0/HesapMakinesi.AssemblyInfoInputs.cache
+/home/revived/Belgeler/zed/csharp/calculator/HesapMakinesi/obj/Debug/net8.0/HesapMakinesi.AssemblyInfo.cs
+/home/revived/Belgeler/zed/csharp/calculator/HesapMakinesi/obj/Debug/net8.0/HesapMakinesi.csproj.CoreCompileInputs.cache
+/home/revived/Belgeler/zed/csharp/calculator/HesapMakinesi/obj/Debug/net8.0/HesapMakinesi.dll
+/home/revived/Belgeler/zed/csharp/calculator/HesapMakinesi/obj/Debug/net8.0/refint/HesapMakinesi.dll
+/home/revived/Belgeler/zed/csharp/calculator/HesapMakinesi/obj/Debug/net8.0/HesapMakinesi.pdb
+/home/revived/Belgeler/zed/csharp/calculator/HesapMakinesi/obj/Debug/net8.0/HesapMakinesi.genruntimeconfig.cache
+/home/revived/Belgeler/zed/csharp/calculator/HesapMakinesi/obj/Debug/net8.0/ref/HesapMakinesi.dll
