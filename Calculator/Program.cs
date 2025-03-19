@@ -8,47 +8,47 @@ class Program
         try
         {
 
-            Console.Write("İlk sayiyi giriniz: ");
-            double sayi1 = double.Parse(Console.ReadLine());
-            Console.Write("İkinci sayiyi giriniz: ");
-            double sayi2 = double.Parse(Console.ReadLine());
-            Console.Write("Islem cesidi seciniz(+,-,/,*): ");
+            Console.Write("Enter a Number: ");
+            double num1 = double.Parse(Console.ReadLine());
+            Console.Write("Enter another Number: ");
+            double num2 = double.Parse(Console.ReadLine());
+            Console.Write("Enter an Operation(+,-,/,*): ");
             char op = char.Parse(Console.ReadLine());
-            double sonuc = 0;
-            bool HataVar = false;
+            double result = 0;
+            bool There_is_an_error = false;
             switch (op)
             {
-                case '+': sonuc = sayi1 + sayi2; break;
-                case '-': sonuc = sayi1 - sayi2; break;
-                case '*': sonuc = sayi1 * sayi2; break;
+                case '+': result = num1 + num2; break;
+                case '-': result = num1 - num2; break;
+                case '*': result = num1 * num2; break;
                 case '/':
-                    if (sayi2 == 0)
+                    if (num2 == 0)
                     {
-                        Console.WriteLine("Hata: Sıfıra bölünme hatası!");
-                        HataVar = true;
+                        Console.WriteLine("Error: Division by zero error!");
+                        There_is_an_error = true;
                     }
                     else
                     {
-                        sonuc = sayi1 / sayi2;
+                        result = num1 / num2;
                     }
                     break;
                 default:
-                    Console.Write("Geçersiz İşlem Girildi");
-                    HataVar = true;
+                    Console.Write("Invalid Operation Entered");
+                    There_is_an_error = true;
                     break;
             }
-            if (!HataVar)
+            if (!There_is_an_error)
             {
-                Console.WriteLine($"Sonuç: {sonuc}");
+                Console.WriteLine($"Result: {result}");
             }
         }
         catch (FormatException)
         {
-            Console.WriteLine("Hata: Sayısal değer girilmedi!");
+            Console.WriteLine("Error: Non-numeric value entered!");
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Beklenmedik Hata: {ex.Message}");
+            Console.WriteLine($"Unexpected Error: {ex.Message}");
         }
     }
 }
